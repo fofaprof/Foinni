@@ -3,55 +3,52 @@ header {
   top: 0;
   right: 0;
   left: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
   justify-content: space-between;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   max-width: 1170px;
   height: 120px;
-  margin: auto; }
-  header img {
-    margin: 30px; }
-  header nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
+  margin: auto;
+  img {
+    margin: 30px;
+  }
+  nav {
     display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
     justify-content: space-between;
-    margin: 30px; }
-    header nav a {
+    margin: 30px;
+    a {
       font-family: 'Roboto', sans-serif;
       font-weight: 300;
       font-size: 14px;
       text-decoration: none;
       color: #fff;
       position: relative;
-      margin: 0 15px; }
-      header nav a span {
-        display: none; }
-      header nav a:hover {
-        color: #1dde85; }
-        header nav a:hover span {
+      margin: 0 15px;
+      span {
+        display: none;
+      }
+      &:hover {
+        color: #1dde85;
+        span {
           display: block;
           background-color: #1dde85;
           position: absolute;
           left: 0;
           bottom: -10px;
           width: 100%;
-          height: 1px; }
-
+          height: 1px;
+        }
+      }
+    }
+  }
+}
 .line {
   position: fixed;
   top: 120px;
   background-color: #8f8e91;
   width: 100%;
-  height: 1px; }
+  height: 1px;
+}
 
 h1 {
   padding-top: 40%;
@@ -59,26 +56,17 @@ h1 {
   font-weight: 400;
   font-size: 48px;
   text-align: center;
-  color: #fff; }
-  h1 .green {
+  color: #fff;
+  .green {
     color: #1dde85;
-    font-weight: 900; }
-
+    font-weight: 900;
+  }
+}
 p {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-size: 18px;
   line-height: 36px;
   text-align: center;
-  color: #fff; }
-
-body {
-  background: url(../img/bg.jpg) no-repeat center center fixed;
-  background-size: cover;
-  padding: 0;
-  margin: 0; }
-
-.container {
-  text-align: center;
-  width: 80%;
-  margin: auto; }
+  color: #fff;
+}

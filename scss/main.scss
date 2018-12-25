@@ -1,0 +1,22 @@
+@media only screen and (max-width: 320px) {}
+
+@media only screen and (max-width: 576px) {}
+
+@media only screen and (max-width: 768px) {}
+
+@media only screen and (max-width: 992px) {}
+
+@media only screen and (max-width: 1200px) {}
+
+
+body {
+  background: url(../img/bg.jpg) no-repeat center center fixed;
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+}
+.container {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
