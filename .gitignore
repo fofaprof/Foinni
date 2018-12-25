@@ -4,4 +4,5 @@
 /**/*.psd
 /**/Thumbs.db
 /.idea
+/temp/
 package-lock.json
