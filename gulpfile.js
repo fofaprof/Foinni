@@ -45,7 +45,7 @@ gulp.task('serve', ['scss'], function() {
     browserSync.init({
         server: "./"
     });
-    gulp.watch("scss/*.scss", ['scss']);
+    gulp.watch("scss/*.scss", ['scss']).on('change', browserSync.reload);
     gulp.watch("*.html").on('change', browserSync.reload);
     gulp.watch('js/**/*.js', browserSync.reload);
 });

@@ -50,8 +50,12 @@ header {
   height: 1px;
 }
 
+.banner {
+
+}
 h1 {
-  padding-top: 40%;
+  padding-top: 33%;
+  margin-bottom: 40px;
   font-family: 'Exo', sans-serif;
   font-weight: 400;
   font-size: 48px;
@@ -66,7 +70,12 @@ p {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 30px;
   text-align: center;
+  color: #8f8e91;
+}
+.banner-text {
+  padding-bottom: 33%;
+  font-weight: 400;
   color: #fff;
 }

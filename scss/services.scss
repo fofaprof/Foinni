@@ -1,0 +1,37 @@
+.services {
+  position: relative;
+  background-color: #fff;
+}
+h2 {
+  padding-top: 120px;
+  color: #454546;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  .green {
+    color: #1dde85;
+  }
+}
+.service-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.service-item {
+  max-width: 28%;
+  //min-width: 320px;
+  border-style: solid;
+  border-color: #8f8e91;
+  border-width: 0.5px;
+  .icon {
+    font-family: 'icomoon' !important;
+    font-size: 33px;
+    color: #454546;
+  }
+}
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  color: #454546;
+}
